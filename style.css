@@ -1,0 +1,123 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: aqua;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+header a {
+    color: orangered;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+header a:hover {
+    color: black;
+    transition: 3s;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px orangered;
+}
+
+nav a {
+    border: 2.5px solid rgb(28, 165, 85);
+    padding: 10px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(134, 21, 240);
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    margin-top: 15px;
+    background-color: peru;
+    padding: 25px
+}
+
+nav a:hover {
+    font-size: 30px;
+    transition: 5s;
+    color: green;
+    background-color: rgb(218, 130, 130);
+}
+
+nav:hover {
+    background-color: royalblue;
+    transition: 1.5s;
+}
+
+h1:hover {
+    text-shadow: -5px -5px 5px black;
+    transition: 1.5s;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+footer {
+    padding: 15px;
+    margin: 15px;
+}
+
+footer:hover {
+    background-color: violet;
+    transition: 7s;
+    padding: 60px;
+}
+
+main p {
+    margin-left: 40px;    
+    color: black;
+}
+
+main p:hover {
+    font-size: 40px;
+    color: violet;
+    transition: 3s;
+}
+
+main li {
+    font-size: 20px;
+}
+
+main li:hover {
+    color: orangered;
+    font-size: 40px;
+    transition: 2.5s;
+}
+
+main a:hover {
+    text-decoration: none;
+    text-shadow: 5px 5px 5px black;
+    transition: 4.5s;
+} 
+
+main li {
+    margin: 5px;
+    margin-left: 5px;
+    font-family: cursive;
+}
+
+main li:hover {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    background-color: turquoise;
+    padding: 15px;
+}
+
+h2:hover {
+    color: white;
+    background-color: red;
+    transition: 5s;
+    font-size: 40px;
+}
